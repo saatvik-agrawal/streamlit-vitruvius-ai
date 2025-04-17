@@ -4,7 +4,7 @@
 
 Check out https://huggingface.co/spaces/atomikk/PID
 
-## 🚀 How to build this?
+## 🚀 How to build this for yourself?
 
 1. Clone the repository or open it in a GitHub Codespace.
 2. Open the root folder in a terminal.
