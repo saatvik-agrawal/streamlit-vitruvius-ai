@@ -1,9 +1,5 @@
-# supreme-computing-machine
+## How to use this?
 
-AI Integration for Project Vitruvius
-
-user@user-system repo path % streamlit run app.py
-
-open
-
-streamlit run app.py
+1. Clone the repository locally or run in a code space.
+2. Open the topmost folder in an integrated terminal.
+3. Run: streamlit run app.py
