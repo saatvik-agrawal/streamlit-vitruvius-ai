@@ -1,34 +1,55 @@
-## How to use this?
+## 🚀 Usage
 
-1. Clone the repository locally or run in a code space.
-2. Open the topmost folder in an integrated terminal.
-3. Run: streamlit run app.py
+1. Clone the repository or open it in a GitHub Codespace.
+2. Open the root folder in a terminal.
+3. Run:
+   ```bash
+   streamlit run app.py
+   ```
 
-Credits: Nethan Mikil Kuruppu (@github username)
+**Credits**: Nethan Mikil Kuruppu ([@github username](https://github.com/github_username))
 
+---
 
-## 📦 Required Python Packages
+## 📦 Requirements
 
-Before running this project, make sure the following Python packages are installed:
+Install these Python packages before running the app:
 
-### 1. `PyYAML`
-
-- **Purpose**: To parse `.yaml` files.
-- **Install command**:
+- `pyyaml` – for reading `.yaml` config files  
   ```bash
   pip install pyyaml
   ```
 
-### 2. `python-dotenv`
-
-- **Purpose**: To load environment variables from a `.env` file.
-- **Install command**:
+- `python-dotenv` – for loading environment variables from `.env`  
   ```bash
   pip install python-dotenv
   ```
 
-You can also install both at once using:
+- `streamlit` – for running the web app  
+  ```bash
+  pip install streamlit
+  ```
 
+Install all at once:
 ```bash
-pip install pyyaml python-dotenv
+pip install pyyaml python-dotenv streamlit
 ```
+
+---
+
+## 📂 File Structure
+
+```
+project-root/
+├── app.py
+├── config.yaml
+├── .env
+├── README.md
+```
+
+---
+
+## ℹ️ Notes
+
+- `.env`: use `KEY=VALUE` format
+- `.yaml`: follow standard YAML syntax
