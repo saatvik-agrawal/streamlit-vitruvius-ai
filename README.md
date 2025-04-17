@@ -1,4 +1,4 @@
-**Credits**: Nethan Mikil Kuruppu (@atomikk65535)
+**Credits**: Nethan Mikil Kuruppu https://github.com/atomikk65535
 
 ## How to use this quickly?
 
