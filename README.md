@@ -1,4 +1,10 @@
-## 🚀 Usage
+**Credits**: Nethan Mikil Kuruppu (@atomikk65535)
+
+## How to use this quickly?
+
+Check out https://huggingface.co/spaces/atomikk/PID
+
+## 🚀 How to build this?
 
 1. Clone the repository or open it in a GitHub Codespace.
 2. Open the root folder in a terminal.
@@ -7,13 +13,12 @@
    streamlit run app.py
    ```
 
-**Credits**: Nethan Mikil Kuruppu ([@github username](https://github.com/github_username))
 
 ---
 
 ## 📦 Requirements
 
-Install these Python packages before running the app:
+Install these Python packages and libraries before running the app:
 
 - `pyyaml` – for reading `.yaml` config files  
   ```bash
