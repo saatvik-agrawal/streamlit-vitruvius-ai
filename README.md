@@ -1,5 +1,7 @@
 **Credits**: Nethan Mikil Kuruppu https://github.com/atomikk65535
 
+Also check out https://github.com/saatvik-agrawal/project-vitruvius
+
 ## How to use this quickly?
 
 Check out https://huggingface.co/spaces/atomikk/PID
