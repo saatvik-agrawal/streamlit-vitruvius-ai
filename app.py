@@ -92,7 +92,7 @@ if st.session_state.step == 1:
         st.session_state.user_description = st.session_state.use_case_input
         st.session_state.step = 2
         st.rerun()
-        # st.experimental_rerun() is deprecated in favor of st.rerun()
+        # st.rerun() is deprecated in favor of st.rerun()
 
 # Step 2: Select scale and engagement levels
 elif st.session_state.step == 2:
@@ -128,13 +128,13 @@ elif st.session_state.step == 2:
     with col1:
         if st.button("Back"):
             st.session_state.step = 1
-            st.experimental_rerun()
+            st.rerun()
     with col2:
         if st.button("Next: View Templates"):
             st.session_state.selected_scale = st.session_state.scale_input
             st.session_state.selected_engagement = st.session_state.engagement_input
             st.session_state.step = 3
-            st.experimental_rerun()
+            st.rerun()
 
 # Step 3: Show recommended templates based on scale and engagement
 elif st.session_state.step == 3:
@@ -172,7 +172,7 @@ elif st.session_state.step == 3:
                         st.session_state.filled_template = adapted_template
                     
                     st.session_state.step = 4
-                    st.experimental_rerun()
+                    st.rerun()
                 
                 st.markdown("---")
     else:
@@ -181,7 +181,7 @@ elif st.session_state.step == 3:
     
     if st.button("Back to Dimension Selection"):
         st.session_state.step = 2
-        st.experimental_rerun()
+        st.rerun()
 
 # Step 4: Refinement through conversation (Combined customization and chat)
 elif st.session_state.step == 4:
@@ -233,7 +233,7 @@ elif st.session_state.step == 4:
                     })
                 
                 # Force a rerun to update the UI
-                st.experimental_rerun()
+                st.rerun()
     
     with col2:
         st.subheader("Template Preview")
@@ -250,7 +250,7 @@ elif st.session_state.step == 4:
     # Back button
     if st.button("Back to Templates"):
         st.session_state.step = 3
-        st.experimental_rerun()
+        st.rerun()
 
 # Reset button (available on all steps)
 if st.button("Start Over"):
@@ -264,7 +264,7 @@ if st.button("Start Over"):
     st.session_state.selected_engagement = None
     
     # Force a rerun to update the UI
-    st.experimental_rerun()
+    st.rerun()
 
 # Footer
 st.markdown("---")
